@@ -1,0 +1,39 @@
+name : Ayush kumar
+fruit: "Apple"
+job : 'SWE'
+
+bio : My name is Ayush kumar
+I am a software developer  #Invalid
+
+---
+Valid : >
+This will be in 
+the single line
+no matter how many lines
+u have written 
+
+---
+#SPECIFY THE TYPES (Which type of the data is ?)
+# For that there is a syntax !!int 0 and whatever interger value after !!int x where x is the only integer value
+
+zero: !!int 0
+positive Number: !!int 17
+negativenumber: !!int -19
+binarynumber: !!int 0b11001
+octalnumber: !!int 065743
+hexanumber: !!int 0x17
+commaValue: !!int +1719_000 #Equivalent to 1719,000
+
+#floating points numbers:
+Marks: !!float 67.78
+infinite: !!float .inf
+not a num: .nan
+
+# null
+surname: !!null Null # or null NULL ~
+~: this is a null key
+
+# dates and time
+date: !!timestamp 2002-12-14
+india time: 2001-12-15T02:59:43.10 +5:30
+no time zone: 2001-12-15T02:59:43.10

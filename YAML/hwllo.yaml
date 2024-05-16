@@ -1,0 +1,22 @@
+"apple" : "I am a red Fruit"
+17 : "This is Ayush Kumar Roll No"
+
+--- # For sepating documents we are using ---
+# lists
+- apple
+- mongo
+- banana
+- guava
+- Apple
+---
+cities:
+ - new delhi
+ - Mumbai
+ - Hyderabad
+
+---
+cities : [new delhi , mumbai]
+---
+{mango : "yellow" , age : 56}
+...
+ #NOTE: for ending documents we will use ... 
